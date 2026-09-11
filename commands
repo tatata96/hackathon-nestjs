@@ -1,1 +1,8 @@
 npx skills@latest add jsmastery-pro/skills -a claude-code
+https://github.com/jsmastery-pro/skills
+
+
+claude mcp add arcjet --transport http https://api.arcjet.com/mcp
+https://docs.arcjet.com/mcp-server#claude-codeı
+
+for i in {1..60}; do curl -s -o /dev/null -w "%{http_code}\n" http://localhost:3000; done
